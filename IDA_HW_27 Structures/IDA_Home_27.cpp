@@ -59,6 +59,7 @@ Movie* movies_stack[numbers_of_movies] = { &Terminator_2,&FClub,&Gladiator };
 
 
 
+
 // Service functions prototypes ------------------------------------
 int Get_Int_SA();			// String-analysis вариант фильтра INTEGER
 int Get_Int_Positive();		// String-Analysis вариант проверки ввода INTEGER_POSITIVE		
