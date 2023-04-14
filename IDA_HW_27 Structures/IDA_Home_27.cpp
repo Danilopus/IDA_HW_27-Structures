@@ -51,13 +51,11 @@ Movie Gladiator //2
 
 int const numbers_of_movies = 3;
 
-Movie movies_stack[numbers_of_movies] = {Terminator_2,FClub,Gladiator};
+//Movie movies_stack[numbers_of_movies] = {Terminator_2,FClub,Gladiator};
 
 //Movie& movies_stack[numbers_of_movies] = { Terminator_2,FClub,Gladiator };
 
 Movie* movies_stack[numbers_of_movies] = { &Terminator_2,&FClub,&Gladiator };
-
-
 
 
 
